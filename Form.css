@@ -1,0 +1,38 @@
+form {
+    width: 200px;
+    margin: auto;
+    padding: 25px;
+    border: solid blue;
+    background-color: ghostwhite;
+    border: 3px;
+    font-size: 16px;
+    text-align: center;
+}
+
+form h1 {
+    color:crimson;
+    font-style: italic;
+    background-color: ghostwhite;
+}
+form button {
+    border-radius: 12px;
+    color:darkred;
+    padding: 10px 32px;
+    width: auto;
+}
+
+.error {
+    color: crimson;
+    font-size: 12px;
+}
+
+
+label {
+    color:darkblue;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.input-control.success input {
+    border-color: #09c372;
+}

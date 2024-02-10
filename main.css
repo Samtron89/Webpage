@@ -1,0 +1,41 @@
+
+body {background-color: lightblue;}
+
+h1 {
+    color:black;
+    text-align:center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 120%;}
+
+nav {
+     height: 400px;
+     width: 200px; 
+     float: left;
+     padding:5px;
+     line-height: 20px;
+    }
+
+footer {
+    text-align: center;
+    margin-right: 200px;}
+
+ol {
+    background-color: lavender;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 100%;
+    margin-right: 50%;}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+
+footer{
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    color: darkblue;
+    text-align: center;
+    margin-top: 15px;
+ }

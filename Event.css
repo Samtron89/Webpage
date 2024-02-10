@@ -1,0 +1,77 @@
+#Railway.animate-button {   /* Img animation*/
+  animation: my-animation 2s ease;
+  animation-duration: 4s;
+  animation-direction: normal;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+  /*Style properties of Img*/
+  #Railway {
+width: 300px;
+height: 200px;
+position: relative;
+border-radius: 8px;
+border: 4px solid blue;
+margin: 10%;
+}
+/* Moves the Img around*/ 
+@keyframes my-animation {
+    0% {left: 0px; top:0px ;
+    }
+    25% {left: 250px; top: 0px;
+    } 
+    50% {left: 200px; top: 200px;}
+    75% {left: 0px; top: 200px;} 
+    100% {left: 0px; top: 0px;}
+}
+.animate-button {
+    animation: my-animation 2s ease ease-in-out;
+}
+/* Style properties*/
+h1 {
+  color: color-mix(in srgb, midnightblue 60%, ghostwhite 40%);
+  background-color: floralwhite;
+  text-align: left;
+  font-style: oblique;
+  font-family: Arial, Helvetica, sans-serif;
+ float: left;
+}
+
+body {
+  background-color: lightgray;
+  box-sizing: content-box;
+}
+ button {
+  color: blueviolet;
+  background-color: rgb(147, 176, 231);
+  padding: 14px 18px;
+  font-size: medium;
+  border-radius: 16px;
+  cursor: pointer;
+  box-shadow: 0 6px #999;
+  margin: 10%;
+  margin-left: auto;
+  margin-right: auto;
+ }
+#btns {
+  text-align: center;
+}
+
+ /*Press Effect*/
+.button:hover {
+  background-color: black;
+}
+.button:active {
+  background-color: black;
+  box-shadow: 0 4pxx #666;
+  transform: translateY(4px);
+}
+
+footer {
+  font-size: 16px;
+  font-family: 'Times New Roman', Times, serif;
+  color: darkblue;
+  text-align: center;
+  margin-top:auto;
+}

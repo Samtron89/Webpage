@@ -1,0 +1,86 @@
+<!--Cory Neubeck-->
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Palindrome Checker</title>
+		<script src="strings.js" defer></script>
+		<script src="Form.js" defer></script>
+		<link rel="stylesheet" href="strings.css"/>
+		<link rel="stylesheet" href="Form.css">
+		<script src="Home.js" defer></script>
+		<link rel="stylesheet" href="Home.css">
+	</head>
+	<body>
+
+		<header>
+			<h1>Click menu</h1>
+		  </header>
+		  
+		  <!--Menu-->
+		  <div class="menuDropDown">
+			<button onclick="menu()" class="menubtn">Menu</button>
+			<div id="myMenu" class="menu-content">
+				<nav>
+					<h2>Naviagate to Pages</h2> 
+				<a href="./index.html">Event</a><br>
+				<a href="./table.html">Content</a><br>
+				<a href="./boards.html">Boards</a><br>
+				<a href="./game.html">Game</a><br>
+				<a href="./strings.html">Palindrome</a><br>
+				
+			</nav>
+			</div>
+			
+		  </div>
+
+		<h1>Is your word a Palindrome?</h1>
+
+		<!--Button used to call function in JS-->
+		<button id="button" onclick="click()">Try it Out</button>
+
+		<!--Imagine-->
+		<p><img src="Cat panlidrome.jpg" /><>
+
+		<!--Form-->
+		
+		<div class="container">
+			<form id="form" action="/"> 
+
+			<h1>Sign up</h1>
+			<div class="input-control">
+			
+			<label for="firstName">First Name</label>
+			<input type="text" id="firstName" name="firstName">
+			<div class="error"></div>
+		
+		<div class="input-control"> 
+			<label for="lastName">Last Name</label>
+			<input type="text" id="lastName" name="lastName"> 
+		<div class="error"></div>
+
+			<div class="input-control">
+				<label for="zipCode">Zip Code</label>
+				<input type="text" id="zipCode" name="zipCode"> 
+			<div class="error"></div>
+	
+			<button type="submit">Sign Up</button>
+			
+		</form>
+			</div>
+	<!--Audio-->	
+<audio id="myAudio" >
+	<source src="thunder_strike_1.mp3">
+</audio>
+		<button onclick="playAudio()" type="button"> Play Audio</button>
+		<button onclick="pauseAudio()" type="button"> Pause Audio</button>
+
+		<footer>
+			Cory Neubeck<br>
+			University of Advancing Technology<br>
+			2625 W. Baseline Rd<br>
+			Tempe, AZ 85283-1056<br>
+		  </footer>
+	</body>
+</html>

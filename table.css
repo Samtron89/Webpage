@@ -1,0 +1,61 @@
+/*table Style*/
+
+table {
+    border-collapse: collapse ;
+    border-style: ridge;
+    width: 40%;
+    text-align: center;
+    margin: auto;
+    margin-top: 15%;
+}
+td {  
+    border-style: ridge ;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    height: 22px;
+    color:midnightblue;
+}
+th {
+    
+    border-style: ridge;
+    width: 15%;
+    height: 20px;
+    font-family: cursive;
+    font-style: italic;
+    font-size: 20px;
+    color:hsla(100, 77%, 22%, 0.715);
+
+    
+}
+th, td {
+    padding-top: 14px;
+    padding-bottom: 20px;
+    padding-left: 15px;
+    padding-right: 18px;
+}
+tr:hover {
+background-color:lightgrey;
+}
+
+body {
+    background-color:azure;
+}
+ /* Menu Style*/
+ .menubtn {
+    margin-left: -800%;
+ }
+ .menu-content{
+    margin-left: -800%;
+ }
+ header {
+    color: crimson;
+    margin-left: 450px;
+ }
+
+ footer{
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    color: darkblue;
+    text-align: center;
+    margin-top: 15px;
+ }
